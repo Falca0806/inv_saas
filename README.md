@@ -1,1 +1,4 @@
 # inv_saas
+
+USUARIO = Admin
+CONTRASENA = 12345678
