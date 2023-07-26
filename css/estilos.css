@@ -1,0 +1,34 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    
+}
+.navbar-menu{
+    background-color:rgb(152, 238, 204);
+    
+}
+
+.img{
+    float: right;
+    border-radius: 5px;
+}
+
+.main-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container > .login,
+.main-container > .hero-body {
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    min-width: 300px;
+}
+
+.for-inline{
+    display: inline-flex;
+}
