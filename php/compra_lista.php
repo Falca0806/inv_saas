@@ -55,8 +55,8 @@
         $contador = $inicio + 1;
         $pag_inicio = $inicio + 1;
         foreach ($datos as $rows) {
-            $total = $rows['producto_precio'] * $rows['producto_stock'];
-            $total_final = $total;
+            $total_c = $rows['producto_precio'] * $rows['producto_stock'];
+            $total_final = $total_c;
             $tabla .='
             <tr class="has-text-centered" >
                 <td>'. $contador .'</td>
